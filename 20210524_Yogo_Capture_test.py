@@ -7,6 +7,9 @@ import time
 from docutils.parsers.rst.directives import flag
 
 
+print("Hello")
+
+
 class Application(tk.Frame):
     flag = 0
     def __init__(self,master, video_source=0):
